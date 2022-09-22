@@ -19,6 +19,7 @@ def test_skip():
 
 @allure.feature('test_broken')
 def test_broken():
+    print('broken')
     raise Exception('oops')
 
 if __name__ == '__main__':
