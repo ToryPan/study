@@ -20,6 +20,7 @@ def test_skip():
 @allure.feature('test_broken')
 def test_broken():
     print('broken')
+    print('branch_2')
     raise Exception('oops')
 
 if __name__ == '__main__':
